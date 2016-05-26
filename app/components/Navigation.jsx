@@ -17,7 +17,7 @@ var Navigation = (props) => {
       </div>
       <div className="top-bar-right">
         <ul className="menu">
-          <li className="menu-text">Created by <a href="nicohaenggi.com" target="_blank">Nico Haenggi</a></li>
+          <li className="menu-text">Created by <a href="http://nicohaenggi.com" target="_blank">Nico Haenggi</a></li>
         </ul>
       </div>
     </div>
