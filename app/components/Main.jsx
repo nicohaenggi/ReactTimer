@@ -1,12 +1,15 @@
 var React = require('react');
-var Nav = require('Nav');
+var Navigation = require('Navigation');
 
 var Main = (props) => {
   return (
     <div>
-      <Nav/>
-      <p>Main.jsx Rendered</p>
-      {props.children}
+      <Navigation/>
+      <div className="row">
+        <div className="medium-6 large-4 columns small-centered">
+          {props.children}
+        </div>
+      </div>
     </div>
   );
 };
